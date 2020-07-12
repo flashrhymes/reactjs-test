@@ -1,0 +1,17 @@
+.footer-content{
+    display: table;
+    width: 100%;
+    border-top: 1px solid #D8D8D8;
+    
+    .footer-nav{
+        
+        a{
+            color: #8F8F8F;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 20px 10px;
+            margin-right: 10px;
+        }
+    }
+}

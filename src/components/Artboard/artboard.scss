@@ -1,0 +1,78 @@
+.artboard-panel {
+    position: fixed;
+    z-index: 90;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .artboard-content {
+        border-radius: 3px;
+        background-color: white;
+        width: 42%;
+        height: 290px;
+        overflow: hidden;
+        border-radius: 2px;
+        .artboard-top{
+            display: table;
+            width: 100%;
+            padding: 10px 2%;
+            p{
+                float: left;
+                color: #5FBB6C;
+                font-size: 14px;
+                font-weight: bolder;
+                line-height: 40px;
+                margin: 0;
+            }
+            .artboard-circle{
+                float: right;
+                width: 40px;
+                height: 40px;
+                background-color: #5FBB6C;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 40px;
+                cursor: pointer;
+                span {
+                    color: white;
+                    font-weight: bold;
+                }
+
+            }
+        }
+        textarea{
+            border: none;
+            width: 100%;
+            max-height: 170px;
+            resize: none;
+            outline: none;
+            padding: 0 15px;
+        }
+        .artboard-bottom{
+            padding: 10px 2%;
+            border-top: 1px solid #ECECEC;
+            button{
+                font-size: 14px;
+                border: 1px solid;
+                padding: 7px 3%;
+                border-radius: 2px;
+            }
+            .artboard-close{
+                background-color: #F7F9F9;
+                border-color: #ECECEC;
+                color: #6D758C;
+            }
+            .artboard-post{
+                float: right;
+                background-color: #43A6EB;
+                border-color: #43A6EB;
+                color: white;
+            }
+        }
+    }
+}

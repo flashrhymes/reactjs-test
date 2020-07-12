@@ -1,0 +1,46 @@
+.nav-menu-tab {
+    border-top: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    .navbar-ul {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        float: left;
+
+        a {
+            display: inline-block;
+            color: #6B6B6B;
+            text-decoration: none;
+            margin: 0;
+            font-size: 14px;
+            padding: 16px 2%;
+            border-right: 1px solid #ECECEC;
+        }
+
+    }
+
+    .navbar-sendmsg {
+        width: 10%;
+        float: right;
+        border-right: 1px solid #ECECEC;
+        padding: 7px 2%;
+        .navbar-circle {
+            width: 40px;
+            height: 40px;
+            background-color: #5FBB6C;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            span {
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
